@@ -1,0 +1,303 @@
+.form {
+	text-align: center;
+	position: absolute;
+	top: 30vh;
+	left: 35vw;
+	z-index: 2;
+}
+
+.form input {
+	margin: 10px auto;
+	color: #707071;
+}
+
+span {
+	font-size: 20px;
+	margin: 10px 50px;
+	
+}
+
+.form .btn-success,.btn {
+	width: 100px;
+	color: white;
+	margin: auto 20px; 
+}
+
+.base {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	margin: -8px;
+	background: #a0d8ef;
+}
+
+.book1 {
+	position: relative;
+	height: 30px;
+	width: 140px;
+	background: #fffff0;
+	border-radius: 10px;
+	border: 5px solid #942343;
+}
+
+.ribbon1 {
+	display: inline-block;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	margin: 0;
+	padding: 2px 0;
+	z-index: 2;
+	width: 20px;
+	text-align: center;
+	background: #ff785b;
+}
+
+.ribbon1:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 100%;
+	height: 0;
+	width: 0;
+	border-left: 10px solid #ff785b;
+	border-right: 10px solid #ff785b;
+	border-bottom: 10px solid transparent;
+}
+
+.book1-r {
+	position: absolute;
+	height: 40px;
+	width: 10px;
+	background: #a0d8ef;
+	right: -5px;
+	bottom: -5px;
+}
+
+.book1-r:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	width: 5px;
+	background: #a0d8ef;
+	top: 5px;
+	right: 10px;
+}
+
+.book2 {
+	position: relative;
+	height: 40px;
+	width: 120px;
+	background: #a688bd;
+	right: 5px;
+}
+
+.book2:before, .book2:after {
+	content: '';
+	position: absolute;
+}
+
+.book2:before {
+	height: 40px;
+	width: 60px;
+	left: 10px;
+	border-left: 20px double #fff;
+	border-right: 20px double #fff;
+}
+
+.book2:after {
+	height: 20px;
+	width: 30px;
+	background: #fff;
+	top: 10px;
+	left: 45px;
+}
+
+.book3 {
+	position: relative;
+	height: 30px;
+	width: 140px;
+	background: #fffff0;
+	border-radius: 10px;
+	border: 5px solid #004d25;
+}
+
+.ribbon3 {
+	display: inline-block;
+	position: relative;
+	top: 15px;
+	left: 100px;
+	margin: 0;
+	padding: 2px 0;
+	z-index: 2;
+	width: 20px;
+	text-align: center;
+	background: #a4d5bd;
+}
+
+.ribbon3:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 100%;
+	height: 0;
+	width: 0;
+	border-left: 10px solid #a4d5bd;
+	border-right: 10px solid #a4d5bd;
+	border-bottom: 10px solid transparent;
+}
+
+.book3-l {
+	position: absolute;
+	height: 40px;
+	width: 10px;
+	background: #a0d8ef;
+	left: -5px;
+	bottom: -5px;
+}
+
+.book3-l:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	width: 5px;
+	background: #a0d8ef;
+	top: 5px;
+	left: 10px;
+}
+
+.book4 {
+	position: relative;
+	height: 35px;
+	width: 160px;
+	background: #ed6d35;
+	right: 5px;
+}
+
+.book4:before, .book4:after {
+	content: '';
+	position: absolute;
+}
+
+.book4:before {
+	height: 35px;
+	width: 100px;
+	left: 10px;
+	border-left: 20px double #fff;
+	border-right: 20px double #fff;
+}
+
+.book4:after {
+	height: 20px;
+	width: 40px;
+	background: #fff;
+	top: 8px;
+	left: 60px;
+}
+
+.book5 {
+	position: relative;
+	height: 35px;
+	width: 150px;
+	background: #0073a8;
+	right: 5px;
+}
+
+.book5:before, .book5:after {
+	content: '';
+	position: absolute;
+}
+
+.book5:before {
+	height: 35px;
+	width: 90px;
+	left: 10px;
+	border-left: 20px double #fff;
+	border-right: 20px double #fff;
+}
+
+.book6 {
+	position: relative;
+	height: 30px;
+	width: 170px;
+	background: #fffff0;
+	border-radius: 10px;
+	border: 5px solid #622d18;
+	right: 10px;
+}
+
+.ribbon6 {
+	display: inline-block;
+	position: relative;
+	top: 15px;
+	left: 100px;
+	margin: 0;
+	padding: 2px 0;
+	z-index: 2;
+	width: 20px;
+	text-align: center;
+	background: #a4d5bd;
+}
+
+.ribbon6:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 100%;
+	height: 0;
+	width: 0;
+	border-left: 10px solid #a4d5bd;
+	border-right: 10px solid #a4d5bd;
+	border-bottom: 10px solid transparent;
+}
+
+.book6-l {
+	position: absolute;
+	height: 40px;
+	width: 10px;
+	background: #a0d8ef;
+	left: -5px;
+	bottom: -5px;
+}
+
+.book6-l:before {
+	content: '';
+	position: absolute;
+	height: 30px;
+	width: 5px;
+	background: #a0d8ef;
+	top: 5px;
+	left: 10px;
+}
+
+.book7 {
+	position: relative;
+	height: 40px;
+	width: 200px;
+	background: #fcc800;
+	right: 5px;
+}
+
+.book7:before, .book7:after {
+	content: '';
+	position: absolute;
+}
+
+.book7:before {
+	height: 40px;
+	width: 100px;
+	left: 10px;
+	border-left: 20px double #fff;
+}
+
+.book7:after {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #fff;
+	top: 10px;
+	left: 170px;
+}

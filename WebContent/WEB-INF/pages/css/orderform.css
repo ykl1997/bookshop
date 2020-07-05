@@ -1,0 +1,29 @@
+.form {
+	text-align: left;
+	line-height: 80px;
+}
+
+.form span {
+	font-size: 25px;
+	margin: 20px 50px;
+	color: #3f7fcebf;
+}
+
+.form font {
+	margin: 30px 0;
+}
+
+.form input{
+	width: 200px;
+	height: 50px;
+	margin: 20px 50px;
+	font-size: 20px;
+}
+.form .small{
+	font-size: 20px;
+}
+.form .name{
+	font-size: 25px;
+}
+
+

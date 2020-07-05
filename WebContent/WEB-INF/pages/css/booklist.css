@@ -1,0 +1,30 @@
+ .book {
+	text-align: center;
+}
+
+.book img {
+	width: 200px;
+	height: 220px;
+}
+
+.book a {
+	color: black;
+	text-decoration: none;
+}
+
+.book a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.book .bookname {
+	font-size: 20px;
+	font-weight: bolder;
+}
+.book .auther{
+	color: #c4c4c4;
+}
+.book .price {
+	font-size: 20px;
+	color: #d65930;
+}

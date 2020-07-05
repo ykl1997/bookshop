@@ -1,0 +1,77 @@
+.list {
+	margin-top: 10px;
+	width: 250px;
+	background: linear-gradient(to left, #43c6ac, #f8ffae);
+	text-align: center;
+	list-style: none;
+	border-radius: 10px;
+	float: left;
+}
+
+.list a {
+	font-size: 30px;
+	display: block;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	text-decoration: none;
+}
+
+.list a:HOVER {
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+}
+.list a:visited{
+	text-decoration: none;
+}
+
+
+.today {
+	font-size: 20px;
+	color: red;
+	margin: auto;
+}
+
+.right {
+	width: 1250px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
+	left: 270px;
+}
+
+.right .book {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+
+.container img {
+	width: 200px;
+	height: 220px;
+}
+
+.right .book a {
+	color: black;
+	text-decoration: none;
+}
+
+.right .book a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.right .book .bookname {
+	font-size: 20px;
+	font-weight: bolder;
+}
+.right .book .auther{
+		color: #c4c4c4;
+}
+.right .book .price {
+	font-size: 20px;
+	color: #d65930;
+}

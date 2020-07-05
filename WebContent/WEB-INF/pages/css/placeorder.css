@@ -1,0 +1,54 @@
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 450px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	background: #FDA231;
+}
+
+.form {
+	text-align: center;
+	line-height: 20px;
+	width: 300px;
+	height: 350px;
+	border-radius: 2px;
+	background: white;
+	box-shadow: 5px 5px 20px #00000044;
+	position: absolute;
+	left:53.5%;
+	top:55%;
+	margin-top: -200px;
+	margin-left: -200px;
+	
+	
+}
+
+.form div {
+	margin: 20px 0;
+}
+
+.form .buttn {
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+}
+
+.form .bookname{
+	font-size: 20px;
+}
+.form #num{
+	width: 60px;
+}
+textarea {
+	resize: none ;
+}
+#yuan{
+	color:#ec2c64;
+	font-size: 20px;
+}
+
