@@ -40,7 +40,7 @@ body {
 </head>
 <body>
 	<div class="hit-the-floor">404</div>
-	<div class="font">找到你请求的资源，请稍后再试......</div>
+	<div class="font">你请求的资源未找到，请稍后再试......</div>
 </body>
 
 </html>
